@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if they overflow */
+    gap: 10px; /* Space between elements */
+    width: 100%; /* Ensures the form covers the full width */
+    box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+input, button {
+    flex: 1; /* Ensures input and button grow to fill available space */
+    min-width: 200px; /* Minimum width to avoid elements being too narrow */
+    padding: 12px; /* Adds space inside input and button */
+    border: 1px solid #ccc; /* Border styling for input and button */
+    border-radius: 4px; /* Rounds the corners of input and button */
+    font-size: 16px; /* Increases font size */
+}
+
+button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes default border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button background on hover */
+}

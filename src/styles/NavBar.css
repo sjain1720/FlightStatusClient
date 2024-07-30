@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: lightblue;
+  padding: 10px 20px; /* Add padding for text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure the header covers the entire screen width */
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.plane-icon {
+  height: 40px; /* Adjust size as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.flight-status {
+  color: darkblue;
+}
+
+.login {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  white-space: nowrap; /* Prevent text from wrapping */
+  padding: 5px 10px; /* Adjust padding to fit the button content */
+  /* Remove any width settings */
+  flex: 0 0 auto; /* Ensure the button does not grow */
+}
+
+.login:hover {
+  color: darkblue;
+  background: none;
+}

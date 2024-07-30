@@ -1,0 +1,67 @@
+.show-flight {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+  }
+  
+  .show-flight-header,
+  .show-flight-middle,
+  .show-flight-footer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .show-flight-header {
+    justify-content: space-between;
+  }
+  
+  .show-flight-middle {
+    display: flex;
+    border-top: none;
+    font-size: 1.2em; /* Increase font size of middle part */
+  }
+  
+  .middle-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .show-flight-footer {
+    justify-content: space-between;
+    border-top: none;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  .flight-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left,
+  .middle-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .plane-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .edit-icon {
+    cursor: pointer;
+  }
+  
+  .middle-left span,
+  .flight-info span {
+    margin-right: 5px;
+  }
+  
